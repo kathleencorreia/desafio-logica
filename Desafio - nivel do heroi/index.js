@@ -4,7 +4,7 @@ console.log("Nome do herói é " + nomeDoHeroi)
 
 
 console.log("Qual é a experiência do seu herói? " )
-let xp = 3500
+let xp = 100;
 console.log("A experiência do herói é " + xp)
 
 let nivelDoheroi; 
@@ -32,6 +32,19 @@ else if (xp > 9001 && xp <= 10000) {
 else {
     nivelDoheroi = "Radiante"  
 }  
+
+switch (true) {
+  case xp <= 1000:
+    console.log('Ferro favela');
+    break;
+  case 'Mangoes':
+  case 'Papayas':
+    console.log('Mangoes and papayas are $2.79 a pound.');
+    // Expected output: "Mangoes and papayas are $2.79 a pound."
+    break;
+  default:
+    console.log(`Sorry, we are out of ${xp}.`);
+}
 
 console.log("O Herói " + nomeDoHeroi + " está no nível " + nivelDoheroi)
 
