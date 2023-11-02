@@ -33,18 +33,8 @@ else {
     nivelDoheroi = "Radiante"  
 }  
 
-switch (true) {
-  case xp <= 1000:
-    console.log('Ferro favela');
-    break;
-  case 'Mangoes':
-  case 'Papayas':
-    console.log('Mangoes and papayas are $2.79 a pound.');
-    // Expected output: "Mangoes and papayas are $2.79 a pound."
-    break;
-  default:
-    console.log(`Sorry, we are out of ${xp}.`);
-}
+
+
 
 console.log("O Herói " + nomeDoHeroi + " está no nível " + nivelDoheroi)
 
